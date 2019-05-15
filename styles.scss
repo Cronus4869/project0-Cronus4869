@@ -1,0 +1,39 @@
+$color: blue;
+
+%message{
+    font-size: 28px
+}
+
+.info{
+    color : gray;
+    text-align : left;
+    text-decoration: underline;
+
+
+}
+
+.name{
+    text-transform: capitalize;
+
+}
+
+.research{
+    @extend %message;
+    font-weight:bold;
+}
+
+.div{
+    p{
+        @extend %message;
+        text-align: center;
+        
+    }
+}
+#talk{
+    @extend %message;
+    text-indent:50px;
+    color: $color;
+}
+#school{
+    color : blue;
+}

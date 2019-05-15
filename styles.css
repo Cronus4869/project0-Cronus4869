@@ -1,26 +1,25 @@
-.info{
-    color : gray;
-    text-align : left;
-    text-decoration: underline;
+.research, .div p, #talk {
+  font-size: 28px; }
 
+.info {
+  color: gray;
+  text-align: left;
+  text-decoration: underline; }
 
-}
+.name {
+  text-transform: capitalize; }
 
-.name{
-    text-transform: capitalize;
+.research {
+  font-weight: bold; }
 
-}
+.div p {
+  text-align: center; }
 
-.research{
-    font-size: 28px;
-    font-weight:bold;
-}
+#talk {
+  text-indent: 50px;
+  color: blue; }
 
-#talk{
-    text-indent:50px;
-    color: green;
-    font-size:30px;
-}
-#school{
-    color : blue;
-}
+#school {
+  color: blue; }
+
+/*# sourceMappingURL=styles.css.map */
